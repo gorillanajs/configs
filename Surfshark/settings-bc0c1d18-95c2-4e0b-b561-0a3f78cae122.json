@@ -1,0 +1,122 @@
+{
+	"settings_tcp": true,
+	"settings_cleanweb": false,
+	"settings_protocol": "auto",
+	"autoconnect_location": "fastest",
+	"autoconnect_enabled": false,
+	"autoconnect_trusted_physical_connection": [],
+	"locations_favorites": [],
+	"recents": [
+		{
+			"id": "06772a51-5b8f-40fe-b573-6d413cb2ec92",
+			"country": "Italy",
+			"countryCode": "IT",
+			"region": "Europe",
+			"regionCode": "EU",
+			"load": 24,
+			"type": "generic",
+			"location": "Rome",
+			"connectionName": "it-rom.prod.surfshark.com",
+			"tags": [
+				"p2p"
+			],
+			"transitCluster": null,
+			"flagUrl": "https://cdn.ss-cdn.com/assets/flags/IT.png",
+			"pubKey": "fqxSeDr7n249iywruwLMwkV3r36svPT1tLf9TJOTFAw=",
+			"_exitUnit": null,
+			"_exitUniti18nCode": null,
+			"_exitUnitLocaleCountry": null
+		},
+		{
+			"country": "Denmark",
+			"countryCode": "DK",
+			"region": "Europe",
+			"regionCode": "EU",
+			"load": 11,
+			"id": "dc31e710-476b-4be2-bc5f-8ee65e9cc0f9",
+			"coordinates": {
+				"longitude": 12.583333,
+				"latitude": 55.666667
+			},
+			"info": [
+				{
+					"id": "2f3eba9c-9899-4c9d-be94-4ced11da250a",
+					"entry": {
+						"value": "U2FsdGVkX18jqdxEhAsciAhXqfY1DbHyVjLsUOU/vLA="
+					}
+				}
+			],
+			"type": "generic",
+			"location": "Copenhagen",
+			"connectionName": "dk-cph.prod.surfshark.com",
+			"pubKey": "peDjRPEdHHmo0hGootZ9f+MQCEXmziFkLhMTl2PeXRM=",
+			"tags": [
+				"p2p"
+			],
+			"transitCluster": null,
+			"flagUrl": "https://cdn.ss-cdn.com/assets/flags/DK.png"
+		},
+		{
+			"id": "b0aaa11d-557e-4f4b-b04b-2fdc739c6bf8",
+			"country": "France",
+			"countryCode": "FR",
+			"region": "Europe",
+			"regionCode": "EU",
+			"load": 13,
+			"type": "generic",
+			"location": "Paris",
+			"connectionName": "fr-par.prod.surfshark.com",
+			"tags": [
+				"p2p"
+			],
+			"transitCluster": null,
+			"flagUrl": "https://cdn.ss-cdn.com/assets/flags/FR.png",
+			"pubKey": "AsvLuvKKADdc67aA/vHA3vb61S6YnGGx2Pd4aP4wal8=",
+			"_exitUnit": null,
+			"_exitUniti18nCode": null,
+			"_exitUnitLocaleCountry": null
+		},
+		{
+			"id": "cd2a0e6c-b33f-4bbe-b4b2-35984b45fd02",
+			"country": "Germany",
+			"countryCode": "DE",
+			"region": "Europe",
+			"regionCode": "EU",
+			"load": 17,
+			"type": "generic",
+			"location": "Frankfurt am Main",
+			"connectionName": "de-fra.prod.surfshark.com",
+			"tags": [
+				"p2p"
+			],
+			"transitCluster": null,
+			"flagUrl": "https://cdn.ss-cdn.com/assets/flags/DE.png",
+			"pubKey": "fJDA+OA6jzQxfRcoHfC27xz7m3C8/590fRjpntzSpGo=",
+			"_exitUnit": null,
+			"_exitUniti18nCode": null,
+			"_exitUnitLocaleCountry": null
+		},
+		{
+			"id": "f8aa8d00-b011-4fd6-9e3b-22ab65ef23fb",
+			"country": "Algeria",
+			"countryCode": "DZ",
+			"region": "Middle East and Africa",
+			"regionCode": "EA",
+			"load": 9,
+			"type": "generic",
+			"location": "Algiers",
+			"connectionName": "dz-alg.prod.surfshark.com",
+			"tags": [
+				"virtual",
+				"p2p"
+			],
+			"transitCluster": null,
+			"flagUrl": "https://cdn.ss-cdn.com/assets/flags/DZ.png",
+			"pubKey": "KyFFiO8bY3wZGpxJf7aqEH3TrG+Jj4ZfNOyh2oS7ICU=",
+			"_exitUnit": null,
+			"_exitUniti18nCode": null,
+			"_exitUnitLocaleCountry": null
+		}
+	],
+	"quick_connect": "fastest"
+}

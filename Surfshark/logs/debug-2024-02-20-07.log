@@ -1,0 +1,32 @@
+2024-02-20T06:30:53.903Z [ELECTRON:ipc-client] debug: Call ipc method addSubscriber 
+2024-02-20T06:30:58.329Z [ELECTRON:ipc-client] debug: Call ipc method getState 
+2024-02-20T06:30:58.346Z [ELECTRON:storage] info: Falling back to encrypted storage. 
+2024-02-20T06:30:58.923Z [ELECTRON:fetch] info: GET https://surfsharkstatus.com/incidents/info.txt	200 
+2024-02-20T06:30:59.032Z [ELECTRON:ipc-client] debug: Call ipc method getState 
+2024-02-20T06:30:59.795Z [ELECTRON:user-action] info: onSubscribed|"sharkState" 
+2024-02-20T06:30:59.798Z [ELECTRON:user-action] info: onSubscribed:success 
+2024-02-20T06:31:00.061Z [ELECTRON:user-action] info: sge 
+2024-02-20T06:31:00.066Z [ELECTRON:user-action] info: sge:success 
+2024-02-20T06:31:00.069Z [ELECTRON:fetch] info: GET https://api.surfshark.com/v1/account/users/me	401 
+2024-02-20T06:31:00.261Z [ELECTRON:fetch] info: POST https://api.surfshark.com/v1/auth/renew	200 
+2024-02-20T06:31:00.314Z [ELECTRON:fetch] info: POST https://ux.surfshark.com/v2/batch	200 
+2024-02-20T06:31:00.479Z [ELECTRON:fetch] info: GET https://api.surfshark.com/v1/account/users/me	200 
+2024-02-20T06:31:00.581Z [ELECTRON:user-action] info: sge 
+2024-02-20T06:31:00.584Z [ELECTRON:user-action] info: sge:success 
+2024-02-20T06:31:00.585Z [ELECTRON:user-action] info: refetchLocations|{"throws":true} 
+2024-02-20T06:31:00.589Z [ELECTRON:user-action] info: getUserData 
+2024-02-20T06:31:00.732Z [ELECTRON:fetch] info: GET https://api.surfshark.com/v4/server/clusters/all	200 
+2024-02-20T06:31:00.756Z [ELECTRON:user-action] info: refetchLocations:success 
+2024-02-20T06:31:00.884Z [ELECTRON:fetch] info: POST https://ux.surfshark.com/v2/batch	200 
+2024-02-20T06:31:00.888Z [ELECTRON:fetch] info: GET https://api.surfshark.com/v1/server/user	200 
+2024-02-20T06:31:00.890Z [ELECTRON:fetch] info: GET https://api.surfshark.com/v1/server/user	200 
+2024-02-20T06:31:01.046Z [ELECTRON:user-action] info: getUserData:success 
+2024-02-20T06:31:01.168Z [ELECTRON:shark] info: physical connection changed 
+2024-02-20T06:31:01.196Z [ELECTRON:protocol-checker] info: checkUDP 51820 chk.surfshark.com 
+2024-02-20T06:31:01.199Z [ELECTRON:protocol-checker] info: checkUDP 2433 chk.surfshark.com 
+2024-02-20T06:31:01.200Z [ELECTRON:protocol-checker] info: checkTCP 7443 chk.surfshark.com 
+2024-02-20T06:31:01.241Z [ELECTRON:protocol-checker] info: checkTCP 7443 chk.surfshark.com: connect 
+2024-02-20T06:31:01.242Z [ELECTRON:protocol-checker] info: checkUDP 51820 chk.surfshark.com: success 
+2024-02-20T06:31:01.242Z [ELECTRON:protocol-checker] info: checkUDP 2433 chk.surfshark.com: success 
+2024-02-20T06:31:01.258Z [ELECTRON:protocol-checker] info: checkTCP 7443 chk.surfshark.com: data 
+2024-02-20T06:31:01.259Z [ELECTRON:protocol-checker] info: checkTCP 7443 chk.surfshark.com: success 

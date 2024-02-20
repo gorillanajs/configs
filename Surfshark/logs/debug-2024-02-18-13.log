@@ -1,0 +1,46 @@
+2024-02-18T12:35:32.983Z [ELECTRON:ipc-client] debug: Call ipc method addSubscriber 
+2024-02-18T12:35:37.345Z [ELECTRON:ipc-client] debug: Call ipc method getState 
+2024-02-18T12:35:37.378Z [ELECTRON:storage] info: Falling back to encrypted storage. 
+2024-02-18T12:35:37.704Z [ELECTRON:fetch] info: GET https://surfsharkstatus.com/incidents/info.txt	200 
+2024-02-18T12:35:37.995Z [ELECTRON:ipc-client] debug: Call ipc method getState 
+2024-02-18T12:35:38.761Z [ELECTRON:user-action] info: onSubscribed|"sharkState" 
+2024-02-18T12:35:38.766Z [ELECTRON:user-action] info: onSubscribed:success 
+2024-02-18T12:35:38.965Z [ELECTRON:fetch] info: GET https://api.surfshark.com/v1/account/users/me	401 
+2024-02-18T12:35:39.023Z [ELECTRON:user-action] info: sge 
+2024-02-18T12:35:39.027Z [ELECTRON:user-action] info: sge:success 
+2024-02-18T12:35:39.087Z [ELECTRON:fetch] info: POST https://api.surfshark.com/v1/auth/renew	200 
+2024-02-18T12:35:39.149Z [ELECTRON:fetch] info: POST https://ux.surfshark.com/v2/batch	200 
+2024-02-18T12:35:39.281Z [ELECTRON:fetch] info: GET https://api.surfshark.com/v1/account/users/me	200 
+2024-02-18T12:35:39.634Z [ELECTRON:user-action] info: sge 
+2024-02-18T12:35:39.636Z [ELECTRON:user-action] info: sge:success 
+2024-02-18T12:35:39.639Z [ELECTRON:fetch] info: GET https://api.surfshark.com/v1/server/user	200 
+2024-02-18T12:35:39.641Z [ELECTRON:user-action] info: refetchLocations|{"throws":true} 
+2024-02-18T12:35:39.705Z [ELECTRON:shark] info: physical connection changed 
+2024-02-18T12:35:39.720Z [ELECTRON:user-action] info: getUserData 
+2024-02-18T12:35:39.754Z [ELECTRON:protocol-checker] info: checkUDP 51820 chk.surfshark.com 
+2024-02-18T12:35:39.756Z [ELECTRON:protocol-checker] info: checkUDP 2433 chk.surfshark.com 
+2024-02-18T12:35:39.757Z [ELECTRON:protocol-checker] info: checkTCP 7443 chk.surfshark.com 
+2024-02-18T12:35:39.832Z [ELECTRON:fetch] info: GET https://api.surfshark.com/v4/server/clusters/all	200 
+2024-02-18T12:35:39.854Z [ELECTRON:user-action] info: refetchLocations:success 
+2024-02-18T12:35:39.855Z [ELECTRON:fetch] info: POST https://ux.surfshark.com/v2/batch	200 
+2024-02-18T12:35:39.998Z [ELECTRON:fetch] info: GET https://api.surfshark.com/v1/server/user	200 
+2024-02-18T12:35:40.148Z [ELECTRON:user-action] info: getUserData:success 
+2024-02-18T12:35:40.240Z [ELECTRON:protocol-checker] info: checkTCP 7443 chk.surfshark.com: connect 
+2024-02-18T12:35:40.242Z [ELECTRON:protocol-checker] info: checkUDP 2433 chk.surfshark.com: success 
+2024-02-18T12:35:40.243Z [ELECTRON:protocol-checker] info: checkUDP 51820 chk.surfshark.com: success 
+2024-02-18T12:35:40.257Z [ELECTRON:protocol-checker] info: checkTCP 7443 chk.surfshark.com: data 
+2024-02-18T12:35:40.258Z [ELECTRON:protocol-checker] info: checkTCP 7443 chk.surfshark.com: success 
+2024-02-18T12:35:57.252Z [ELECTRON:user-action] info: connect|{"location":{"id":"06772a51-5b8f-40fe-b573-6d413cb2ec92","country":"Italy","countryCode":"IT","region":"Europe","regionCode":"EU","load":24,"type":"generic","location":"Rome","connectionName":"it-rom.prod.surfshark.com","tags":["p2p"],"transitCluster":null,"flagUrl":"https://cdn.ss-cdn.com/assets/flags/IT.png","pubKey":"fqxSeDr7n249iywruwLMwkV3r36svPT1tLf9TJOTFAw=","_exitUnit":null,"_exitUniti18nCode":null,"_exitUnitLocaleCountry":null},"intent":"location_list"} 
+2024-02-18T12:35:57.407Z [ELECTRON:fetch] info: POST https://ux.surfshark.com/v2/batch	200 
+2024-02-18T12:35:57.434Z [ELECTRON:fetch] info: POST https://api.surfshark.com/v1/account/users/public-keys/validate	200 
+2024-02-18T12:35:57.559Z [ELECTRON:ipc-client] debug: Call ipc method addIPV6Connection 
+2024-02-18T12:35:57.658Z [ELECTRON:fetch] info: POST https://ux.surfshark.com/v2/batch	200 
+2024-02-18T12:35:57.665Z [ELECTRON:ipc-client] debug: Call ipc method add 
+2024-02-18T12:35:58.687Z [ELECTRON:ipc-client] debug: Call ipc method connect 
+2024-02-18T12:36:01.811Z [ELECTRON:ipc-client] debug: Call ipc method getState 
+2024-02-18T12:36:01.916Z [ELECTRON:user-action] info: connect:success 
+2024-02-18T12:36:02.087Z [ELECTRON:fetch] info: POST https://ux.surfshark.com/v2/batch	200 
+2024-02-18T12:36:02.273Z [ELECTRON:fetch] info: POST https://ux.surfshark.com/v2/batch	200 
+2024-02-18T12:36:02.448Z [ELECTRON:user-action] info: getUserData 
+2024-02-18T12:36:02.794Z [ELECTRON:fetch] info: GET https://api.surfshark.com/v1/server/user	200 
+2024-02-18T12:36:02.848Z [ELECTRON:user-action] info: getUserData:success 
